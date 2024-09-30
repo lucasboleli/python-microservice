@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "admin"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./admin",
+        "-p",
+        "test*.py"
+    ]
+}

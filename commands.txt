@@ -1,0 +1,13 @@
+django-admin startproject admin
+django-admin startapp product
+
+
+docker compose exec backend sh
+    python manage.py startapp products
+    python manage.py makemigrations
+    python manage.py migrate
+    python consumer.py
+
+
+
+docker compose up --build
